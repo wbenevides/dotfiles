@@ -4,7 +4,7 @@ Dotfiles. Designed to be managed with GNU Stow
 ## Usage Instructions
 1. Download the repository into **HOME FOLDER** (this step is important because the way `gnu-stow` works!)
 ```sh
-git clone git@github.com:mcbianconi/dotfiles.git $HOME
+git clone git@github.com:wbenevides/dotfiles.git $HOME
 ```
 2. Change to dir
 ```bash
