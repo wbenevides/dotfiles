@@ -15,6 +15,6 @@ cd $HOME/dotfiles
   * If there is a permission error, run `chmod +x startup.sh` or `/bin/sh startup.sh`
 4. Install what you want with gnu-stow, like
 ```bash
-stow i3
+stow bash
 stow vim
 ```
