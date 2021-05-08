@@ -9,7 +9,7 @@ alias la='ls -A'
 
 alias git-home="git config --global user.email "wallacebenevides@hotmail.com" && git config --global user.name "Wallace Benevides""
 alias git-work="git config --global user.email "wallace.benevides@b2wdigital.com" && git config --global user.name "Wallace Benevides""
-alias dev="cd /home/wallace/workspace/b2w/projects"
+alias dev="cd /home/wallace/workspace/b2w/repositories/promocional"
 alias config='/usr/bin/git --git-dir=/home/wallace/dotfiles/ --work-tree=/home/wallace'
 
 # Wallpapers alias

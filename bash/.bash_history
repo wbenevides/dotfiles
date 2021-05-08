@@ -1,295 +1,3 @@
-sudo apt-get update
-update-manager -d
-sudo apt-get update
-/usr/lib/ubuntu-release-upgrader/check-new-release-gtk
-update-manager -c
-/usr/lib/ubuntu-release-upgrader/check-new-release-gtk
-update-manager -c
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get update
-apt-cache show xserver-xorg | grep Version
-apt-cache show gdm3 | grep Version
-inxi -SMCGx
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get update
-apt search nvidia-
-nvidia-smi 
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get update
-ls -la
-dpkg -i google-chrome-stable_current_amd64.deb 
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
-sudo rm google-chrome-stable_current_amd64.deb 
-ls
-snap
-snap jdk
-snap find jdk
-snap find spotfy
-snap find spotify
-clear
-sudo snap install code --classic
-java
-sudo apt install default-jre
-java -version
-nod
-node
-snap
-sudo apt install nodejs
-node -version
-node -v
-npm -v
-npm
-sudo apt install npm
-sudo snap install intellij-idea-ultimate --classic
-clear
-sudo apt-get update
-clear
-vim
-vi
-vim
-sudo apt install vim
-clear
-vim
-ls
-ls -la
-clear
-sudo mkdir /usr/local/share/ca-certificates/b2w/
-ls /usr/local/share/ca-certificates/b2w/
-sudo cp cert_NEW_CERT-B2W.crt /usr/local/share/ca-certificates/b2w/
-cd workspace/b2w/vpn/
-ls
-sudo cp cert_NEW_CERT-B2W.crt /usr/local/share/ca-certificates/b2w/
-sudo chmod 755 /usr/local/share/ca-certificates
-sudo chmod 644 /usr/local/share/ca-certificates/b2w/ cert_NEW_CERT-B2W.crt
-sudo update-ca-certificates
-cd PanGPLinux-5.0.5-c11/
-sudo dpkg -i GlobalProtect_deb-5.0.5.0-11.deb
-globalprotect connect --portal vpn-aws.b2wdigital.com
-clear
-git config --global user.name "Wallace Benevides"
-git
-sudo apt install git
-git config --global user.name "Wallace Benevides"
-git config --global user.email "wallace.benevides@b2wdigital.com"
-cd ..
-ls
-cd ..
-sudo apt-get update
-$USER
-cat $USER
-whuami
-whoami
-sudo apt-get remove docker docker-engine docker.io
-sudo apt-get update
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt install curl
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-sudo apt-get install docker-ce
-sudo docker version
-sudo apt-get remove docker docker-engine docker.io
-sudo apt-get update
-sudo apt-get remove docker docker-engine docker.io containerd runc
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
-sudo apt-get update
-sudo apt-get install docker-ce
-sudo docker version
-docker
-sudo apt-get remove docker docker-engine docker.io
-sudo apt-get remove docker
-sudo apt-get remove docker.io
-sudo apt-get update
-sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
-sudo apt-get update
-sudo apt-get install docker-ce
-apt-cache madison docker-ce
-docker-ce
-sudo apt-get install docker
-docker
-sudo apt-get remove docker
-docker
-snap info docker
-docker
-sudo snap install docker
-sudo docker version
-docker version
-docker ps
-sudo usermod -aG docker $(whoami)
-docker ps
-sudo docker ps
-systemctl start docker
-sudo snap remove docker
-docker
-sudo snap install docker
-systemctl unmask docker.service
-sudo snap remove docker
-docker
-sudo apt-get install docker.io
-sudo usermod -aG docker $(whoami)
-docker ps
-which docker
-docker ps
-vim .profile 
-docker ps
-/usr/bin/docker
-/usr/bin/docker ps
-cat $PATH
-clear
-docker 
-snap help
-snap refresh 
-docker
-cat /etc/profile | more
-docker
-docker ps
-sudo usermod -aG docker $(whoami)
-docker ps
-systemctl unmask docker.service
-systemctl unmask docker.socket
-systemctl start docker.service
-docker ps
-systemcr status docker.service
-systemctl status docker.service
-sudo docker ps
-clear
-docker ps
-sudo usermod -aG docker $(whoami)
-docker ps
-sudo groupadd docker
-sudo usermod -aG docker ${USER}
-docker ps
-su -s ${USER}
-su -s wallace
-docker run hello-world
-docker run --help
-clear
-docker ps
-sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
-sudo chmod g+rwx "$HOME/.docker" -R
-docker ps
-sudo systemctl restart docker
-docker ps
-sudo chmod 666 /var/run/docker.sock
-docker ps
-ps
-clear
-sudo curl -L https://github.com/docker/compose/releases/download/1.15.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-ls
-docker-compose ps
-clear
-ls -la
-clear
-ls -la
-clear
-vim
-cd Downloads/
-curl -O https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
-sha256sum go1.12.9.linux-amd64.tar.gz
-sha256sum go1.14.2.linux-amd64.tar.gz 
-tar -xvf go1.12.9.linux-amd64.tar.gz
-tar -xvf go1.14.2.linux-amd64.tar.gz 
-sudo chown -R root:root ./go
-sudo mv go /usr/local
-vim ~/.profile 
-source ~/.profile
-go build ~/go/src/github.com/wallacebenevides/alura_loja/main.go 
-cd ..
-cd go/src/github.com/wallacebenevides/alura_loja/
-ls
-go build.go
-go build
-ls $GOPATH/
-go
-go run
-go run main.go 
-cd ~/
-ls
-vim .profile 
-go
-vim .profile 
-go build ~/go/src/github.com/wallacebenevides/alura_loja/main.go 
-go version
-vim .profile 
-source ./.profile 
-sudo gedit /etc/pro
-sudo gedit /etc/profile
-source /etc/profile
-ls
-clear
-cd go/src/github.com/wallacebenevides/alura_loja/
-ls
-go build main.go 
-go
-vim /etc/profile
-sudo vim /etc/profile
-sudo souce /etc/profile
-sudo soucer /etc/profile
-sudo sourcer /etc/profile
-sudo source /etc/profile
-source
-source /etc/profile
-vim ~/.profile 
-source ~/.profile 
-clear
-globalprotect connect --portal vpn-aws.b2wdigital.com
-cd workspace/b2w/projects/campaign-service/
-npm run dev
-npm i
-git status
-git branch
-git pull
-npm run dev
-cd ..
-campaign-admin/
-cd campaign-admin/
-npm i
-git branch
-clear
-npm run start:dev
-git status
-grub2
-sudo update-grub
-grub
-sudo fdisk -l
-sudo os-prober 
-sudo update-grub
-sudo fdisk -l
-lsblk
-os-prober 
-sudo os-prober 
-sudo update-grub
-lsblk
-sudo add-apt-repository ppa:yannubuntu/boot-repair
-sudo apt-get update
-sudo apt-get install -y boot-repair && boot-repair
-sudo gedit /etc/grub.d/40_custom 
-lsblk
-sudo fdisk -l
-sudo update-grub
-sudo fdisk -l
-sudo fdisk /dev/sda
-cat /etc/fstab 
-[ -d /sys/firmware/efi ] && echo "Installed in UEFI mode" || echo "Installed in Legacy mode"
-sudo parted -l
-sudo update-grub
-sudo update-grub2
-globalprotect connect --portal vpn-aws.b2wdigital.com
-cd workspace/b2w/projects/
-ls
 git clone http://gitlab.internal.b2w.io/team/promo/campaign-batch-lambda-bypass.git
 cd campaign-batch-lambda-bypass/
 npm i
@@ -1012,3 +720,1390 @@ git log
 git commit -m "Merge branch feature/CAMPAIGN-208"
 git status
 git push origin feature/CAMPAIGN-208
+clear
+npm run test
+git push
+git checkout master
+git pull
+git checkout feature/CAMPAIGN-218
+git checkout feature/CAMPAIGN-216
+git merge master
+git status
+git checkout master
+git pull
+git status
+git pull
+git checkout -b bugfix/CAMPAIGN-220
+git push origin bugfix/CAMPAIGN-220
+git checkout master
+git pull
+git checkout -b feature/CAMPAIGN-221
+clear
+git checkout master
+git pull
+clear
+git checkout v1.29
+git pull origin v1.29
+git checkout -b hotfix/CAMPAIGN-222
+git push origin hotfix/CAMPAIGN-222
+npm run test
+git push origin hotfix/CAMPAIGN-222
+git checkout feature/CAMPAIGN-221
+git stash pop
+git stash
+git checkout hotfix/CAMPAIGN-222 
+git pull
+git pull origin hotfix/CAMPAIGN-222
+npm run test
+git checkout v1.29
+git pull origin v1.29
+npm run test
+git log
+git checkout feature/CAMPAIGN-221
+git stash pop
+clear
+git push -u origin feature/CAMPAIGN-221
+npm run test
+git push -u origin feature/CAMPAIGN-221
+clear
+mvn -version
+sudo apt install maven
+mvn -version
+jdk
+java -v
+java -version
+java
+mvn --version
+$JAVA_HOME/bin/javac -version
+echo $JAVA_HOME
+source ~/.bashrc
+clear
+source ~/.bashrc
+nvm -version
+mvn -version
+$JAVA_HOME/bin/javac -version
+sudo update-alternatives --config java
+marciane
+sudo update-alternatives --config java
+source ~/.bashrc
+clear
+npm run test
+clear
+git merge master
+git push origin feature/CAMPAIGN-221
+clear
+git checkout feature/CAMPAIGN-215
+git checkout -b feature/CAMPAIGN-215
+clear
+git log
+npm run test
+git checkout master
+git pull
+clear
+git branch -d feature/CAMPAIGN-215
+git checkout feature/CAMPAIGN-215
+git status
+git checkout master
+git branch -D feature/CAMPAIGN-215
+git checkout -b feature/CAMPAIGN-215
+git stash pop
+npm run test
+git push origin feature/CAMPAIGN-215
+git status
+git checkout master
+git pull
+git checkout feature/CAMPAIGN-221
+clear
+git log
+clear
+git pull 
+git checkout feature/BCS-144
+clear
+git pull
+clear
+git push origin feature/BCS-144
+npm run test
+clear
+git push
+git checkout mater
+git checkout master
+git checkout feature/CAMPAIGN-224
+git checkout -b feature/CAMPAIGN-224
+git push origin feature/CAMPAIGN-224
+npm run test
+git push origin feature/CAMPAIGN-224
+git push origin feature/BCS-144
+clear
+git checkout mster
+git checkout master
+git pull
+git checkout feature/BCS-144
+git push
+git checkout master
+npm run test
+git pull
+git checkout -b feature/BCS-145
+npm run test
+git push origin feature/BCS-145
+git push origin feature/CAMPAIGN-224
+clear
+git checkout master
+git checkout feature/CAMPAIGN-221
+celar
+clear
+git pull
+git status
+git pull
+git stash pop
+npm run test
+clear
+git checkout -b feature/CAMPAIGN-225
+git stash pop
+clear
+git log
+clear
+git push origin feature/BCS-145
+git checkout master
+git pull
+git checkout -b bugfix/BCS-147
+ckear
+git checkout master
+clear
+git branch -D bugfix/BCS-147 
+git checkout v1.30 
+git checkout -b hotfix/BCS-147
+git push origin hotfix/BCS-147 
+git checkout master
+git pull
+git checkout -b feature/BCS-146
+clear
+git checkout feature/BCS-144
+git checkout feature/BCS-146
+git stash pop
+clear
+git log
+clear
+git push origin feature/BCS-146
+git checkout master
+git pull
+git checkout feature/BCS-146
+git merge master
+git push origin feature/BCS-146
+clear
+git checkout master
+clear
+git pull
+git checkout v1.30
+git pull
+git checkout -b hotfix/CAMPAIGN-227
+git push origin hotfix/CAMPAIGN-227
+clear
+git stash pop
+clear
+git stash pop
+clear
+git checkout master
+git pull 
+clear
+git pull
+clear
+git checkout -b hotfix/CAMPAIGN-228
+git push origin hotfix/CAMPAIGN-228
+git checkout v1.30
+git merge hotfix/CAMPAIGN-228
+git push
+git checkout master
+git checkout feature/CAMPAIGN-225
+git stash pop
+git checkout master
+git pull
+git checkout feature/CAMPAIGN-225
+git merge master
+git stash pop
+git checkout master
+clear
+git stash pop
+celar
+clear
+git merge master
+git push origin feature/BCS-146
+npm run test
+clear
+git checkout master
+clear
+git pull
+celar
+clear
+git status
+git stash list
+git stash pop
+clear
+git checkout master
+git pull
+git stash pop
+git status
+clear
+git push origin feature/CAMPAIGN-225
+clear
+git checkout master
+git checkout -b feature/CAMPAIGN-226
+clear
+git pull
+npm run test
+git push feclear
+clear
+git push origin feature/BCPROMOTEDPRICE-365
+git push origin feature/CAMPAIGN-226
+git checkout master
+clear
+git pull
+clear
+git pull
+git checkout v1.31
+git pull
+git checkout -b hotfix/CAMPAIGN-229
+git stash pop
+git push origin hotfix/CAMPAIGN-229
+git checkout master
+git checkout v1.31
+git pull
+git merge hotfix/CAMPAIGN-229
+git push
+ps
+netstat -tulpn
+netstat -tulpn | grep :80
+netstat
+sudo apt install net-tools
+clear
+yarn dev
+netstat -tulpn | grep :80
+npm run dev
+sudo npm -v
+ps aux | grep 8089
+netstat -tulpn | grep :80
+clear
+npm run test
+git pull
+git checkout -b hotfix/CAMPAIGN-230
+git stash pop
+clear
+git log
+clear
+git push origin hotfix/CAMPAIGN-230
+clear
+git pull origin hotfix/CAMPAIGN-230
+git checkout v1.31
+git pull
+git stash pop
+git checkout -b hotfix/CAMPAIGN-231
+git stash pop
+git push origin hotfix/CAMPAIGN-231
+git checkout v1.31
+git status
+clear
+git merge hotfix/CAMPAIGN-231
+clear
+git push
+clear
+git status
+git log
+git stash pop
+clear
+git log
+clear
+git pull
+git checkout -b hotfix/CAMPAIGN-232
+clear
+npm run test
+git push origin hotfix/CAMPAIGN-232
+git checkout v1.31
+clear
+git checkout hotfix/CAMPAIGN-232
+git log
+clear
+git log
+clear
+git log
+clear
+git push origin hotfix/CAMPAIGN-232
+celar
+clear
+git log
+clear
+git log
+npm run test
+git push origin hotfix/CAMPAIGN-232
+clear
+git push origin hotfix/CAMPAIGN-232
+git pull
+clear
+git log
+git status
+git log
+git checkout master
+git pull
+git checkout feature/BCPROMOTEDPRICE-365
+git merge master
+clear
+git push origin feature/BCPROMOTEDPRICE-365
+clear
+git stash pop
+npm run test
+clear
+git checkout =b feature/BCS-152
+git 
+git push origin feature/BCS-152
+clear
+git checkout master
+git pull
+clear
+git checkout -b feature/CAMPAIGN-212
+clear
+npm run test
+clear
+jest ./utils/validation/product-price-cnpj.test.js 
+../node_modules/jest-cli/bin/jest.js ./utils/validation/product-price-cnpj.test.js 
+npm run test
+git push origin feature/CAMPAIGN-212
+git checkout master
+git pull
+git checkout -b feature/CAMPAIGN-235
+clear
+npm run test
+clear
+git checkout master
+git checkout feature/CAMPAIGN-235
+git stash pop
+git stash list
+clear
+git log
+clear
+git push origin feature/CAMPAIGN-235
+clear
+../node_modules/jest-cli/bin/jest.js ./utils/validation/required.test.js 
+git push origin feature/CAMPAIGN-235
+clear
+git pull
+clear
+git log
+clear
+npm run test
+git push origin feature/CAMPAIGN-212 -f
+clear
+clear
+git pull
+git checkout -b feature/BCS-149
+clear
+git checkout feature/BCS-152
+npm run test
+git push origin feature/BCS-152
+clear
+git checkout feature/BCS-149
+git checkout feature/BCS-152
+git push origin -f feature/BCS-152
+clear
+git checkout feature/BCS-149
+clear
+git checkout master
+git checkout feature/BCS-144
+git log
+clear
+git checkout v1.31
+git pull
+git checkout -b hotfix/BCS-153
+git stash pop
+npm run test
+git push origin hotfix/BCS-153
+git checkout master
+clear
+git checkout feature/BCS-149
+clear
+git checkout hotfix/BCS-153
+git clear
+git checkout v1.31
+git merge hotfix/BCS-153
+git status
+git push
+git checkout master
+git checkout feature/BCS-149
+git log
+git stash pop
+clear
+npm run test
+git checkout master
+git pull
+git merge v1.31
+git status
+git log
+clear
+git push
+clear
+git checkout feature/BCS-149
+clear
+git log
+git rebase master
+git status
+git push -u origin feature/BCS-149
+clear
+git log
+clear
+git checkout v1.32
+git pull
+clear
+git merge feature/BCS-152
+clear
+git merge feature/BCS-152
+git merge feature/BCS-149
+clear
+git checkout feature/BCS-152
+npm run test
+clear
+git push origin feature/BCS-152
+clear
+git checkout master
+git checkout v1.32
+git merge feature/BCS-152
+clear
+git push
+clear
+git pull
+git merge feature/BCS-152
+git log
+git pull
+git pull origin feature/BCS-152
+git merge feature/BCS-152
+git push
+npm run test
+clear
+git pull
+git checkout -b feature/BCS-150
+clear
+git stash pop
+clear
+../node_modules/jest-cli/bin/jest.js ./utils/validation/one-required.test.js 
+../node_modules/jest-cli/bin/jest.js ./utils/validation/one-required.test.js ]
+clear
+git log
+clear
+git push -u origin feature/CAMPAIGN-235
+clear
+git pull
+git branch --set-upstream-to=origin/feature/CAMPAIGN-212 feature/CAMPAIGN-212
+git pull origin feature/CAMPAIGN-212
+git log
+clear
+git checkout master
+git pull
+git checkout v1.32
+git pull
+clear
+git checkout -b hotfix/CAMPAIGN-237
+npm run test
+git push -u origin bugfix/CAMPAIGN-237
+git checkout master
+git stash
+git checkout master
+git pull
+git checkout -b bugfix/CAMPAIGN-238
+git stash pop
+clear
+git push -u origin bugfix/CAMPAIGN-228
+git push -u origin bugfix/CAMPAIGN-238
+git checkout v1.32
+git pull
+npm run test
+clear
+git status
+git add .
+git commit -m "Adds validation to limit the maximum number of product IDs"
+clear
+git push -u origin feature/BCS-150
+git log
+clear
+git checkout master
+git pull
+clear
+git checkout -b feature/BCS-151
+clear
+npm run test
+git push -u origin feature/BCS-151
+npm run start
+npm run dev
+clear
+npm run dev
+npm run dev
+npm run dev
+git status
+git checkout master
+git branch -D bugfix/CAMPAIGN-237
+git checkout bugfix/CAMPAIGN-237
+git checkout master
+git pull
+clear
+git pull hotfix/CAMPAIGN-237
+
+git checkout bugfix/CAMPAIGN-237
+git pull bugfix/CAMPAIGN-237
+git pull origin bugfix/CAMPAIGN-237
+git checkout -b bugfix/CAMPAIGN-240
+git log
+git clear
+git push -u origin bugfix/CAMPAIGN-240
+clear
+npm run dev
+netstat -tulpn | grep :80
+kill -9 38671
+npm run dev
+clear
+npm run dev
+netstat -tulpn | grep :80
+clear
+npm run dev
+git checkout feature/BCS-156
+git log
+clear
+git log
+clear
+git stash pop
+celar
+clear
+git log
+clear
+git checkout v1.32
+git pull
+git merge feature/BCS-156
+npm run dev
+npm run test
+git push
+git log
+npm run test
+git push -u origin feature/BCS-155
+git pull
+git checkout feature/BCS-155
+git stash pop
+clear
+npm run dev
+git status
+git log
+clear
+git checkout -b feature/BCS-158
+git add .
+npm run test
+git push -u origin feature/BCS-158
+npm run dev
+git stash pop
+git log
+git push -u origin feature/BCPROMOTEDPRICE-365
+clear
+git log
+git pull origin feature/CAMPAIGN-243
+git push
+git pull
+git checkout feature/CAMPAIGN-244
+npm run test
+clear
+npm run test
+git push
+git status
+clear
+git pull origin feature/BCS-157
+git push
+clear
+npm run test
+git push origin feature/BCS-157
+clear
+git checkout v1.32
+git pull
+clear
+npm run start:dev
+ps -ef | grep 10165
+ps -ef | grep 8080
+ps -ef
+npm rebuild sass-node
+git pull
+git checkout -b feature/CAMPAIGN-247
+git stash list
+git stash pop
+clear
+git push -u origin feature/CAMPAIGN-247
+clear
+git log
+npm run dev
+git checkout -b feature/BCPROMOTEDPRICE-391
+clear
+git push -u origin feature/BCPROMOTEDPRICE-391
+clear
+git push -u origin feature/BCPROMOTEDPRICE-391
+clear
+git push origin feature/BCPROMOTEDPRICE-391 -f
+npm run dev
+clear
+git checkout v1.33
+git checkout -b hotfix/BCS-165
+git push -u origin hotfix/BCS-165
+clear
+git checkout v1.33
+git merge hotfix/BCS-165
+git push
+npm run test
+jest
+git merge v1.33
+git checkout -b feature/BCS-164
+npm run dev
+CLEAR
+clear
+npm run test
+git push -u origin feature/BCS-164
+git stash pop
+git push -f
+clear
+git checkout -b feature/CAMPAIGN-267
+git push -u origin feature/CAMPAIGN-267 
+clear
+git log
+go build
+cd cmd/
+ls
+go build
+git checkout master
+git pull
+git checkout -b feature/BCS-167
+git stash pop
+npm run test
+git log
+clear
+git push
+git push -u origin feature/BCS-167
+git log
+npm run dev
+git push origin feature/BCS-167
+npm run dev
+git merge v1.33
+git push
+git push 
+git checkout -b hotfix/BCS-69
+clear
+git push -u origin hotfix/BCS-169
+clear
+git merge hotfix/BCS-169
+git push
+npm run dev
+clear
+git log
+npm run test
+git commit -m "Adjust the return of status code"
+git push -f
+clear
+npm run test
+npm run test
+npm run dev
+npm run test
+npm run dev
+npm run test
+clear
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+npm i
+npm run test
+node -v
+npm run test
+npm run dev
+clear
+npm run dev
+npm run test
+git push -f
+git checkout master
+git pull
+git checkout -b feature/CAMPAIGN-254
+git stash pop
+clear
+git push -u origin feature/CAMPAIGN-254
+npm run test
+git push -u origin feature/CAMPAIGN-254
+clear
+git pull
+git checkout feature/CAMPAIGN-259
+clear
+git push
+git checkout master
+git checkout -b v1.33
+git merge feature/CAMPAIGN-259
+git push -u origin v1.33
+git log
+git checkout -b hotfix/CAMPAIGN-269
+git push -u origin hotfix/CAMPAIGN-269
+git checkout v1.33
+git merge hotfix/CAMPAIGN-269
+git push
+git checkout master
+git merge v1.33 
+git push
+npm run dev
+git merge master
+git push 
+docker ps
+docker stop d2c -t 0
+docker stop -t 0 d2c
+docker stop elated_napier 
+docker run -p 3000:3000 b2w/campaign 
+docker ps
+docker run -it -p 3000:3000 b2w/campaign 
+docker run -it b2w/campaign 
+docker run -p 3000:3000 b2w/campaign 
+npm i react-tippy
+git checkout feature/CAMPAIGN-268
+docker run
+ls
+docker build -f Dockerfile -t b2w/campaign .
+docker ps
+docker ps -a
+docker images
+docker run -d -p 3000:3000 b2w/campaign
+docker ps
+docker run -p 3000:3000 b2w/campaign
+docker ps
+docker run -p 3000:3000 b2w/campaign 
+docker -i run -p 3000:3000 b2w/campaign 
+docker run -i -p 3000:3000 b2w/campaign 
+docker run --rm -it -p 3000:3000  b2w/campaign:latest
+docker build -f Dockerfile -t b2w/campaign .
+docker run -i -p 3000:3000 b2w/campaign 
+git pull
+git merge master
+git push origin master
+git push origin feature/BCRULE-386
+docker build -f Dockerfile -t b2w/campaign .
+npm run build
+npm start
+clear
+git push -f
+git merge master
+git log
+git stash
+git pull
+git log
+git push
+git log
+git checkout -b feature/BCRULE-386/queue
+git branch feature/BCRULE-386/queue
+git checkout -b feature/BCRULE-386-queue
+git log
+git push -u origin feature/BCRULE-386-queue 
+git push
+git pull
+git merge feature/BCRULE-386
+clear
+git log
+clear
+git stash pop
+git log
+clear
+git log
+git merge master
+git push
+npm i
+npm start
+clear
+npm run build
+npm i
+npm start
+npm run build
+npm i
+clear
+npm run build
+clear
+npm start
+npm run build
+clear
+npm run build
+clear
+npm i
+npm run build
+npm start
+clear
+npm start
+clear
+npm test:unit
+clear
+npm test
+clear
+npm test
+cçear
+clear
+npm test
+npm start
+npm run build
+git commit
+git log
+git stash pop
+npm i
+npm start
+clear
+git push -f origin master
+git push -f
+npm start
+npm run build
+git commit -m "Simplifies the webpack css loader"
+git checkout -b feature-2
+git-home 
+clear
+npm start --tempo-real
+clear
+npm start
+cle
+clear
+npm start
+clear
+npm start
+clear
+npm start
+clear
+npm start --mapa-zona
+npm start --mapa-brasil
+npm start --mapa
+npm start --tempo-real
+docker --help
+clear
+npm run build
+docker --help
+npm start -b
+npm start -z
+npm start
+npm run build -z
+git log
+clear
+git rebase master
+git push -u origin develop 
+git push -u origin feature/ISSUE-2 
+git checkout develop 
+npm start
+npm i connected-react-router
+npm start
+npm start -b
+npm i react-router
+npm start -b
+npm i react-redux
+npm start -b
+npm i redux-immutable
+npm start -b
+npm i redux-immutable-state-invariant
+npm start -b
+npm i
+npm start -b
+// thunk middleware can also accept an extra argument to be passed to each thunk action
+npm i react-router-dom
+npm start -b
+npm start
+npm start -b
+npm start -z
+npm start
+npm run build
+git push origin feature/ISSUE-38 
+npm start
+npm run build
+npm start
+git push -u origin feature/ISSUE-38
+git push -u origin feature/ISSUE-38 -f
+npm start
+clear
+npm start
+npm run build
+npm start
+git checkout feature/ISSUE-38 
+git rebase develop 
+git rebase --continue
+npm start
+git push -f
+git checkout master
+git pull
+npm run test
+git log
+git log
+dev
+cd rule/
+git log
+npm start
+npm start -b
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+npm start
+npm run build
+git push
+npm start
+npm start -b
+git checkout develop 
+git pull
+git log
+git checkout  feature/ISSUE-38
+git push
+npm run start
+npm start
+git checkout develop 
+git pull
+git checkout -b mp/feature/issue-06/seacher-component
+npm start
+npm i react-window
+npm start
+npm i
+npm start
+npm test
+npm run test
+git merge master
+git push
+npm run test
+git merge master
+git push
+clear
+git merge master
+git push
+npm test
+git push
+git pull
+git checkout feature/CAMPAIGN-254
+git merge master
+git push
+git checkout master
+git pull
+git checkout feature/CAMPAIGN-274
+git checkout -b feature/CAMPAIGN-274
+git rebase feature/CAMPAIGN-273
+git log
+git rebase master
+git rebase --continue 
+git rebase master
+git rebase --continue 
+git merge master
+git push -f
+git push
+npm start
+git push -u origin wb/feature/issue-06/search-filter-component 
+npm start
+git stash pop
+clear
+git-work 
+git push
+npm start
+npm i
+npm test
+git checkout v1.35
+npm test
+git pull
+npm test
+npm run debug
+npm test
+git push
+git stash pop
+npm test
+git push
+git merge feature/BCS-175 
+git merge feature/BCS-167 
+git push 
+npm test
+git push
+npm run test
+npm run dev
+git stash pop
+clear
+git-work 
+npm start
+git pull
+git checkout feature/CAMPAIGN-275
+git checkout -b feature/CAMPAIGN-275
+npm test
+git push -u origin feature/CAMPAIGN-275
+npm start
+git stash
+git checkout develop 
+git pull
+git-home 
+git stash pop
+git checkout wb/feature/issue-12/filtering-routes
+git checkout -b wb/feature/issue-12/filtering-routes
+git stash pop
+npm start
+git push -u origin wb/feature/issue-12/filtering-routes 
+git pull
+git checkou -b hotfix/BCS-180
+git checkout -b hotfix/BCS-180
+npm start dev
+npm i
+npm start dev
+clear
+git checkout v1.35
+git merge hotfix/BCS-180 
+git push
+git checkout master
+git pull
+git merge v1.35 
+git push 
+npm start
+git-home 
+git config user.email "wallacebenevides@hotmail.com" && git config user.name "Wallace Benevides
+"
+git config user.email "wallacebenevides@hotmail.com" && git config user.name "Wallace Benevides"
+git-work 
+git config user
+git config.user
+git config list
+git config 
+git config --get
+git config --local 
+git config -l
+git config --local user.email "wallacebenevides@hotmail.com" && git config --local user.name "Wallace Benevides"
+git config -l
+git config --local user.email "wallacebenevides@hotmail.com" && git config --local user.name "Wallace Benevides"
+git config -l
+git config --local -l
+clear
+npm start
+git push
+npm start
+npm run build
+git push -f
+clear
+git stash pop
+git checkout develop 
+git pull
+git checkout wb/feature/issue-12/filtering-routes 
+git rebase develop 
+git push -f
+npm start 
+npm i
+npm start 
+npm start -b
+npm start
+git checkout develop 
+npm start
+git lo
+git log
+git checkout develop 
+git pull
+git checkout wb/feature/issue-07/share 
+git rebase develop 
+git stash pop
+npm start
+git push -u origin wb/feature/issue-07/share 
+clear
+npm start
+git push
+git push -f
+git fetch 
+npm run start:dev
+npm i
+npm run start:dev
+npm rebuild node-sass
+python --version
+npm rebuild node-sass --force
+npm i
+npm run start:dev
+git checkout hotfix/CAMPAIGN-279
+git checkout -b hotfix/CAMPAIGN-279
+git push
+git push -u origin hotfix/CAMPAIGN-279 
+git checkout v1.35
+git merge hotfix/CAMPAIGN-279 
+git push
+git log
+git status
+git checkout -b bugfix/CAMPAIGN-277
+git push -u origin bugfix/CAMPAIGN-277 
+npm test
+git push -u origin bugfix/CAMPAIGN-277 
+npm test
+npm run dev
+git pull
+npm run dev
+git pull
+git checkout bugfix/BCS-181
+git checkout -b bugfix/BCS-181
+git push -u origin bugfix/BCS-181 
+npm run dev
+git status
+git push
+git status
+git config --local -l
+clear
+git rebase master
+git rebase --continue 
+git rebase --abort
+git log
+clear
+npm start -b
+git pull
+git checkout -b wb/feature/issue-28/action-timer
+npm start
+git checkout -b bugfix/CAMPAIGN-266
+git push -u origin bugfix/CAMPAIGN-266 
+clear
+npm test
+npm start
+git rebase develop 
+git checkout develop 
+git pull
+git checkout wb/feature/issue-28/action-timer 
+git rebase master
+git rebase --abort 
+git push -u origin wb/feature/issue-28/action-timer 
+npm start
+git checkout develop 
+git pull
+clear
+git checkout -b wb/feature/issue-57/CI
+cd .git/
+code .
+git status
+cd ..
+git status
+git push -u origin wb/feature/issue-57/CI 
+git rebase master 
+git rebase --abort 
+clear
+git checkout master 
+git pull
+git push -f
+git checkout wb/feature/issue-57/CI 
+clear
+git push
+git pull
+npm i
+git push
+git checkout wb/feature/issue-57/CI 
+git rebase develop 
+git push
+npm run build:qlt
+
+npm run build
+npm run build -b
+npm run build 
+npm i
+npm run build 
+npm i
+npm run build
+npm i
+npm run build
+npm run build:qlt
+npm start
+npm start -b
+npm start
+npm start -b
+npm start
+npm start -b
+git push 
+git push
+git status
+git checkout develop 
+git pull
+git push
+npm run build --tempo-real
+git push
+npm run build:qlt
+npm run build:qlt -b
+npm i
+npm run build:qlt --mapa-brasil
+git push
+npm run build:qlt --mapa-brasil
+npm run build
+git push
+git pull
+clear
+git pull
+clear
+npm start
+npm start -b
+git pull
+git checkout -b wb/feature/issue-3/card
+clear
+npm start
+npm i
+npm start
+clear
+git push -u origin wb/feature/issue-3/candidate-card 
+npm start
+git push
+git pull
+git checkout master
+git checkout develop 
+git pull
+git merge wb/feature/issue-3/candidate-card 
+git push
+git checkout wb/feature/issue-3/candidate-card 
+git stash pop
+npm start
+git push
+npm run dev
+npm run dev
+clear
+git pull
+clear
+npm test
+git pull
+npm test
+npm run dev
+git push
+npm run dev
+git push
+npm run dev
+git push 
+npm run dev
+clear
+git push
+npm run dev
+git pull
+git push
+git checkout master
+git pull
+git checkout master
+git pull
+clear
+npm run dev
+git pull
+git checkout -b bugfix/CAMPAIGN-281
+clear
+git push -u origin bugfix/CAMPAIGN-281
+npm run dev
+npm start
+npm start -b
+npm start -z
+npm start
+git push
+git push -f
+npm start
+npm run start:dev
+npm run dev
+npm test
+clear
+npm run start
+clear
+npm test
+git pull
+npm test
+npm run dev
+git checkout -b hotfix/CAMPAIGN-286
+git push
+git push -u origin hotfix/CAMPAIGN-286
+git checkout v1.36
+git merge hotfix/CAMPAIGN-286 
+git push
+npm run start:dev
+clear
+git checkout -b hotfix/CAMPAIGN-287
+git stash pop
+git push
+git push -u origin hotfix/CAMPAIGN-287
+git merge hotfix/CAMPAIGN-287
+clear
+git push
+git checkout -b hotfix/BCS-186
+npm test
+git push -u origin hotfix/BCS-186
+git merge hotfix/BCS-186
+git push
+npm start
+git push
+git checkout master
+git merge v1.37
+git push
+clear
+npm run dev
+npm start
+clear
+git push
+git checkout develop 
+git merge wb/feature/issue-12/filtering-routes 
+git push
+git pull
+git merge wb/feature/issue-12/filtering-routes 
+git push
+git checkout wb/feature/issue-12/filtering-routes 
+npm start
+git log
+git status
+npm start
+git push
+git checkout develop 
+git pull
+git merge wb/feature/issue-3/candidate-card 
+git push
+git checkout wb/feature/issue-12/filtering-routes 
+clear
+npm run start
+git rebase develop 
+npm run start
+git checkout wb/feature/issue-3/candidate-card 
+npm start
+git push
+git checkout develop 
+git merge wb/feature/issue-3/candidate-card 
+git push
+git checkout wb/feature/issue-12/filtering-routes 
+git rebase develop 
+git push
+npm start
+clear
+npm start
+git push
+npm start
+git push
+git checkout develop 
+git merge wb/feature/issue-12/filtering-routes 
+npm start
+git push
+git checkout -b wb/feature/issue-11/home-layout-tempo-real
+npm start
+git push
+git push -u origin wb/feature/issue-11/home-layout-tempo-real 
+npm start
+git push
+npm run dev
+npm test
+npm run dev
+clear
+npm test
+git pull
+git checkout -b feature/BCS-187
+git push -u origin feature/BCS-187
+npm test
+git pull
+git checkout v1.36 
+git pull
+git checkout master
+git merge v1.36
+git push
+git pull
+git checkout -b feature/CAMPAIGN-288
+git push
+git push -u origin feature/CAMPAIGN-288
+clear
+git pull
+npm run dev
+npm test
+git pull
+npm run test
+node -v
+npm -v
+npm start
+git push
+npm run dev
